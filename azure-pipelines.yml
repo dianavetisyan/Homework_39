@@ -32,5 +32,5 @@ steps:
 - task: PublishAllureReport@1
   inputs:
     allureVersion: '2.25.0'
-    testResultsDir: '**/allure-results'
+    testResultsDir: 'Homework_39/allure-results'
   condition: always()
